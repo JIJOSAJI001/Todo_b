@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  const API_URL = 'http://localhost:3000/api'
+  const API_URL = 'https://todo-f-z4r8.onrender.com/api'
 
   // Fetch todos on component mount
   useEffect(() => {
@@ -108,7 +108,7 @@ function App() {
 
   return (
     <div className="todo-container">
-      <h1>Todo List</h1>
+      <h1 style={{ color: 'white', textAlign: 'center', fontSize: '3em' }}>Todo List</h1>
       
       <form onSubmit={handleSubmit} className="todo-form">
         <input

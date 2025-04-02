@@ -38,7 +38,7 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #8d1919;
 }
 
 .todo-container {
@@ -57,7 +57,7 @@
   flex: 1;
   padding: 8px;
   font-size: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #ffffff;
   border-radius: 4px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .todo-item {
-  background-color: #f9f9f9;
+  background-color: #000000;
   border: 1px solid #ddd;
   border-radius: 4px;
   margin-bottom: 8px;
